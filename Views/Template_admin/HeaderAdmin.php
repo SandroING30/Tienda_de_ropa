@@ -23,6 +23,7 @@
     <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
     <!--Datatable Style-->
     <link rel="stylesheet" type="text/css" href="<?=media();?>css/dataTables.min.css">
-
+    <!-- Font Awesone (iconos) -->
+    <script src="https://kit.fontawesome.com/e5f32de818.js" crossorigin="anonymous"></script>
   </head>
 
