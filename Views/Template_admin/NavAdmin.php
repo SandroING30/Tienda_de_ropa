@@ -1,6 +1,6 @@
 <body class="app sidebar-mini">
    <!-- Navbar-->
-    <header class="app-header"><a class="app-header__logo" href="<?=base_url();?>dashboard">Tienda</a>
+    <header class="app-header"><a class="app-header__logo" href="<?=base_url();?>dashboard">Fendi Galoi</a>
       <!-- Sidebar toggle button--><a class="app-sidebar__toggle" href="#" data-toggle="sidebar" aria-label="Hide Sidebar"></a>
       <!-- Navbar Right Menu-->
       <ul class="app-nav">
@@ -43,7 +43,12 @@
           </ul>
         </li>
 
-        <li><a class="app-menu__item" href="<?=base_url();?>productos"><i class="app-menu__icon bi bi-box-seam-fill"></i><span class="app-menu__label">Productos</span></a></li>
+        <li class="treeview"><a class="app-menu__item" href="#" data-toggle="treeview"><i class="app-menu__icon bi bi-people-fill"></i><span class="app-menu__label">Productos</span><i class="treeview-indicator bi bi-chevron-right"></i></a>
+          <ul class="treeview-menu">
+            <li><a class="treeview-item" href="<?=base_url();?>agregarproducto"><i class="bi bi-people-fill"></i> Agregar producto</a></li>
+            <li><a class="treeview-item" href="<?=base_url();?>VerProducto"><i class="icon bi bi-file-earmark-fill"></i> Ver producto</a></li>
+          </ul>
+        </li>
         <li><a class="app-menu__item" href="<?=base_url();?>pedidos"><i class="app-menu__icon bi bi-person-lines-fill"></i><span class="app-menu__label">Pedidos</span></a></li>
         <li><a class="app-menu__item" href="<?=base_url();?>logout"><i class="app-menu__icon bi bi-box-arrow-left"></i><span class="app-menu__label">Logout</span></a></li>
       </ul>

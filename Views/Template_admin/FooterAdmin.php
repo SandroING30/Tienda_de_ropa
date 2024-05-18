@@ -6,6 +6,8 @@
     <script src="<?=media();?>js/main.js"></script>
  
     <script src="<?=media();?>js/functionsRoles.js"></script> 
+    <script src="<?=media();?>js/functionsProductos.js"></script> 
+
 
     <!-- Data table plugin-->
     <script type="text/javascript" src="<?=media();?>js/plugins/jquery.dataTables.min.js"></script>
