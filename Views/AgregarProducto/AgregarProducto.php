@@ -21,7 +21,7 @@ navAdmin();
         <div class="col-md-12">
           <div class="tile">
             <div class="tile-body">
-              <form id="formRo2" name="formRo2">
+              <form id="formProducto" name="formProducto">
                   <input type="hidden" id="idProducto" name="idProducto" value="">
                   
                   <div class="mb-3">

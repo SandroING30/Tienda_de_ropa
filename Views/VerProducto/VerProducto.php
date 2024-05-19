@@ -1,4 +1,4 @@
-<?php
+<?=
 headerAdmin();
 navAdmin();
 ?>
@@ -22,7 +22,7 @@ navAdmin();
           <div class="tile">
             <div class="tile-body">
               <div class="table-responsive">
-                <table class="table table-hover table-bordered" id="tableRoles">
+                <table class="table table-hover table-bordered" id="tableProductos">
                   <thead>
                     <tr>
                       <th>IdProd.</th>
@@ -37,10 +37,7 @@ navAdmin();
                       <th>Talla</th>
                       <th>Fecha de creacion</th>
                       <th>Fecha de actualización</th>
-                      <th>Acciones
-                      <i class="fa-solid fa-pen-to-square" style="color: #FFD43B;"></i> 
-                      <i class="fa-solid fa-trash" style="color: #d40c0c;"></i>
-                      </th>
+                      <th>Acciones</th>
                     </tr>
                   </thead>
                   <tbody>
@@ -57,10 +54,6 @@ navAdmin();
     </main>
 </div>  
 
-
-
-
-
-<?php
+<?=
 footerAdmin();
-?>
+?> 
