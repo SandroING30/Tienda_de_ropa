@@ -49,7 +49,7 @@
             <li><a class="treeview-item" href="<?=base_url();?>VerProducto"><i class="icon bi bi-file-earmark-fill"></i> Ver producto</a></li>
           </ul>
         </li>
-        <li><a class="app-menu__item" href="<?=base_url();?>pedidos"><i class="app-menu__icon bi bi-person-lines-fill"></i><span class="app-menu__label">Pedidos</span></a></li>
+        <li><a class="app-menu__item" href="<?=base_url();?>categorias"><i class="app-menu__icon bi bi-person-lines-fill"></i><span class="app-menu__label">Categorias</span></a></li>
         <li><a class="app-menu__item" href="<?=base_url();?>logout"><i class="app-menu__icon bi bi-box-arrow-left"></i><span class="app-menu__label">Logout</span></a></li>
       </ul>
     </aside>

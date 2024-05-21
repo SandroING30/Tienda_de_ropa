@@ -6,7 +6,8 @@
     <script src="<?=media();?>js/main.js"></script>
  
     <script src="<?=media();?>js/functionsRoles.js"></script> 
-    <script src="<?=media();?>js/functionsProductos.js"></script> 
+    <script src="<?=media();?>js/functionsProductos.js"></script>
+    <script src="<?=media();?>js/functionsCategorias.js"></script> 
 
 
     <!-- Data table plugin-->
